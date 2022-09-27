@@ -1,5 +1,5 @@
 PROG = camera
-SRC = ${PROG}.c log.c gl_shader.c
+SRC = ${PROG}.c log.c gl_shader.c window.c main.c
 OBJ = ${SRC:.c=.o}
 
 CFLAGS = -Wall -Wextra -O3 -I/usr/include/X11 -I/usr/include/GL
